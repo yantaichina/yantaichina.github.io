@@ -1,0 +1,92 @@
+ * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body{margin: 0px; padding: 0px; }
+	header{height: 400px; background-image: url("pic_1.jpg"); background-size: cover; }
+	h1{text-align: center left; font-family: "Palanquin Dark", serif; font-size: 40px}
+	h4{text-align: center left; font-family: "Palanquin Dark", serif; font-size: 18px}
+	p{font-size: 20px; font-family: "Gothic A1", sans-serif;}
+	.wordwrap {
+		white-space: -moz-pre-wrap; /* Firefox */
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #F5A82C;
+		}
+
+li{
+	float: left;
+	border-right:1px solid #DDDDDD;
+}
+li a{
+	display: block;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Palanquin Dark", serif;
+	}
+
+li a:hover {
+	background-color: #FFCD7D;
+}
+
+section{
+	font-family: "Palanquin Dark", serif;
+	font-size: 18px;
+}
+
+footer{
+	clear: both;
+	background-color: #F5A82C;
+	text-align: center;
+	font-family: "Palanquin Dark", serif;
+	margin-top: 40px;
+
+}
+
+.entry {
+	border: 5px "Palanquin Dark";
+	width: 220px;
+	float: left;
+	margin: 10px;
+	height: 235px;
+}
+
+figure {
+	display: block;
+	width: 202px;
+	height: 198px;
+	margin: 0;
+	padding: 9px;
+
+}
+
+
+
+figure img {
+	width: 550px;
+	height: 350px;
+	border: 1px solid #d6d6d6;
+}
+
+/*figcaption {
+	text-align: left;
+	background-image: url("pic2.jpg");
+	width: 80;
+	height: 65;
+	padding-left: 40px;
+	background-repeat: no-repeat;}
+}
+*/

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset = "utf-8">
+		<link rel = "stylesheet" type = "text/css"
+			href = "https://fonts.googleapis.com/css?family=Palanquin+Dark"
+			href = "https://fonts.google.com/specimen/Zilla+Slab"
+			href = "https://fonts.google.com/specimen/Gothic+A1?selection.family=Gothic+A1">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<title>煙台</title>
+
+
+</head>
+
+
+
+<body>
+	<header>
+
+
+		<h1>&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp 煙台</h1>
+		<h4>&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 白偉良，權秀禧，馨美</h4>
+
+	</header>
+
+	<ul>
+		<li><a href="main.html">&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp  Home &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a></li>
+		<li><a href="interviews.html">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp   Interviews &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a></li>
+		<li><a href="idealCity.html">&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   Ideal city &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  </a></li>
+		<li><a href="enviroment.html">&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Enviroment &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  </a></li>
+
+	</ul>
+
+	<section>
+		<br>
+		<p>煙台是一個港口城市，位於中國山東省東部。烟台位于山东省的东北部。它与黄海和渤海接壤，位于韩国和日本对岸。這是山東最大的漁港。它的人口是6,968,202。這個城市有許多著名的旅遊景點，如煙台山，昆山和煙台金沙灘等。烟台的气候是很晴朗，很温和. 冬天的时候，平均的气温是 0-3度C，平常下雪。夏天的时候平均的气候是大概30度C。煙台是中國最大的葡萄酒產區。煙台已成為中國酒文化的象徵。這也是海邊城市，吸引了大量的遊客觀賞海邊和喝葡萄酒。</p>
+		<br>
+		<br>
+		<br>
+
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="pic_7.jpg" style="width:100%">
+		  <img class="mySlides" src="pic_8.jpg" style="width:100%">
+		  <img class="mySlides" src="pic_9.jpg" style="width:100%">
+			<img class="mySlides" src="pic_10.jpg" style="width:100%">
+			<img class="mySlides" src="pic_11.jpg" style="width:100%">
+			<img class="mySlides" src="pic_12.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+		<p></p>
+
+<!-- 				<div class = "entry">
+					<figure><img src="pic_1.jpg"
+						 width="500"></figure>
+				</div> -->
+				<!-- <div class = "entry">
+					<figure><img src = "pic2.jpg"
+						width = "500"></figure>
+				</div> -->
+
+
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</section>
+	<footer>
+		copyright &copy CIS Zachary Baker 2018			All rights reserved
+
+
+	</footer>
+
+	<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";
+	  }
+	  x[slideIndex-1].style.display = "block";
+	}
+	</script>
+
+</body>
+
+</html>
